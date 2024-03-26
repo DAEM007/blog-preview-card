@@ -5,16 +5,16 @@
 ## Welcome! 👋
 
 ## Table of contents
+
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
 ### Links
 
-- solution URL - [daem-qr-component-solution](https://github.com/DAEM007/qr-code-component)
-- Live Site URL: [daem-qr-component-live](https://qr-code-component-daem007.vercel.app/)
+- solution URL - [daem-blog-preview-card-solution](https://github.com/DAEM007/blog-preview-card)
+- Live Site URL: [daem-blog-preview-card-live](https://blog-preview-card-daem007.vercel.app/)
 
 ### Built with
 
@@ -28,4 +28,4 @@
 
 ## Acknowledgments
 
-> *PS: I want to cease this opportunity to appreciate Frontend mentor for providing a platform to practice.*
+> _PS: I want to cease this opportunity to appreciate Frontend mentor for providing a platform to practice._
