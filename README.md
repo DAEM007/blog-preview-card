@@ -26,8 +26,6 @@
 - Frontend Mentor - [daem007](https://www.frontendmentor.io/profile/DAEM007)
 - Twitter - [daem007](https://www.twitter.com/daem007)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
 > *PS: I want to cease this opportunity to appreciate Frontend mentor for providing a platform to practice.*
