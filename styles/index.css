@@ -1,26 +1,118 @@
 /* fonts imports */
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 /* universal styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* variables */
 :root {
-    --White: hsl(0, 0%, 100%);
-    --Grey: hsl(0, 0%, 50%);
-    --Black: hsl(0, 0%, 7%);
-    --Yellow-primary: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  --Yellow-primary: hsl(47, 88%, 63%);
+  --medium: 768px;
 }
 
 body {
-    font-size: 1rem;
+  font-family: "Figtree", sans-serif;
+  font-size: 1rem;
+  background: var(--Yellow-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* mobile first */
+.learning-card-wrapper {
+  max-width: 1100px;
+  margin-inline: 2rem;
+}
 
+.learning-card {
+  background: var(--White);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--Black);
+  padding: 1rem;
+  box-shadow: 10px 10px var(--Black);
+}
+
+.learning-card-image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.learning-card-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.learning-card button {
+  width: 5rem;
+  font-weight: 800;
+  background: var(--Yellow-primary);
+  color: var(--Black);
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.learning-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.publication-date {
+  font-weight: 500;
+}
+
+.card-header-text {
+  font-weight: 800;
+}
+
+.card-header-text:hover {
+  color: var(--Yellow-primary);
+  cursor: pointer;
+}
+
+.card-descriptions {
+  color: var(--Grey);
+}
+
+.author-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.author-wrapper .author-name {
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 /* desktop responsiveness */
+@media (min-width: var(--medium)) {
+  .learning-card-wrapper {
+    margin-inline: auto;
+  }
+}
