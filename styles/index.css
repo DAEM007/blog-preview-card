@@ -111,7 +111,7 @@ body {
 }
 
 /* desktop responsiveness */
-@media (min-width: var(--medium)) {
+@media (min-width: 768px) {
   .learning-card-wrapper {
     margin-inline: auto;
   }
